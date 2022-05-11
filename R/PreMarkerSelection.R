@@ -1,5 +1,5 @@
 
-
+#' @export
 Find_CTGroups = function(labelseq,ctnames)
 {
   nct = length(ctnames)
