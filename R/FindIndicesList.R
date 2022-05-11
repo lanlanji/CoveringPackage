@@ -24,7 +24,7 @@ FindIndicesList2 = function(Y, ctnames)
   return(ctIndiceslist)
 }
 
-
+#' @export
 Find_CTGroups = function(labelseq,ctnames)
 {
   nct = length(ctnames)
