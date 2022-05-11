@@ -1,4 +1,4 @@
-
+#' @export
 
 Find_CTGroups = function(labelseq,ctnames)
 {
