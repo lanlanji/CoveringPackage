@@ -1,3 +1,5 @@
+#' @export
+
 CoveringMarkers = function(J = 3, alpha = 0.02, td=1, te=0.1,
                            mat, CellTypeNames, CellTypeLabels)
 {

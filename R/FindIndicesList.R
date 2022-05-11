@@ -1,5 +1,6 @@
 
 #' @export
+
 FindIndicesList = function(Y, ctnames)
 {
   nt = length(ctnames)
@@ -12,7 +13,7 @@ FindIndicesList = function(Y, ctnames)
 }
 
 
-#' @export
+
 FindIndicesList2 = function(Y, ctnames)
 {
   nt = length(ctnames)
@@ -23,3 +24,7 @@ FindIndicesList2 = function(Y, ctnames)
   }
   return(ctIndiceslist)
 }
+
+
+
+
