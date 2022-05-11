@@ -23,3 +23,17 @@ FindIndicesList2 = function(Y, ctnames)
   }
   return(ctIndiceslist)
 }
+
+
+Find_CTGroups = function(labelseq,ctnames)
+{
+  nct = length(ctnames)
+
+  ctgrouplist = list()
+  for (i in 1:nct)
+  {
+    ctgrouplist[[i]] = which(labelseq == ctnames[i])
+  }
+  return(ctgrouplist)
+}
+
