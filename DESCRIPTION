@@ -1,4 +1,4 @@
-Package: MyFirstPackage
+Package: CoveringPackage
 Title: Single cell covering
 Version: 0.0.0.9000
 Authors@R: 

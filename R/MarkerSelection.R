@@ -1,6 +1,9 @@
-
-CompMarker_v2 = function(J,alpha,td,te,trainfreq,selectedtrain,mat)
+CoveringMarkers = function(J = 3, alpha = 0.02, td=1, te=0.1,
+                           mat, CellTypeNames, CellTypeLabels)
 {
+  selectedtrain = Find_CTGroups(CellTypeLabels, CellTypeNames)
+  trainfreq = CompPropMatrix(selectedtrain, mat, paral = FALSE)
+
   nct = length(selectedtrain)
   ng = nrow(mat)
 
@@ -57,4 +60,5 @@ CompMarker_v2 = function(J,alpha,td,te,trainfreq,selectedtrain,mat)
   }
   return(currentmarker)
 }
+
 
