@@ -1,6 +1,6 @@
 # CoveringPackage
 
-##Gurobi
+## Gurobi
 
 Before the installation of CellCover, the user need to install the Gurobi optimizer using the following steps.
 
