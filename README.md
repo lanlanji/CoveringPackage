@@ -1,4 +1,4 @@
-# CoveringPackage
+# CoveringPackage User Guideline
 
 ## Gurobi
 
