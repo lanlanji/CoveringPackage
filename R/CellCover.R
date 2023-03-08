@@ -1,6 +1,6 @@
 #' @export
 
-CoveringMarkers = function(J = 3, alpha = 0.05, genes_per_class = 6000, te=0.1,
+CellCover = function(J = 3, alpha = 0.05, genes_per_class = 6000, te=0.1,
 mat, CellTypeNames, CellTypeLabels,prev = NULL)
 {
   selectedtrain = Find_CTGroups(CellTypeLabels, CellTypeNames)
