@@ -55,9 +55,9 @@ Covering = CellCover(J = ,
 
 Here is a summary of the main parameters in the *CoveringMarkers* function
 
-- *J*: the depth of the covering. The default is 3
+- *J*: the depth of the covering. The default is 3.
   
-- *alpha*: 1 - covering rate. The default is 0.05
+- *alpha*: 1 - covering rate. The default is 0.05.
   
 - *mat*: This is the input single-cell gene expression data frame. The rows of *mat* should correspond to the genes, and the columns of *mat* correspond to the cells. Note *mat* can be the raw count data. The function will do the binarization under the hood.
   
