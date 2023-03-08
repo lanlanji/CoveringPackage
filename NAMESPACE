@@ -3,3 +3,4 @@
 export(CoveringMarkers)
 export(FindIndicesList)
 export(Find_CTGroups)
+export(CellCover)
