@@ -78,11 +78,11 @@ Here is a summary of the main parameters in the *CoveringMarkers* function
 CellCover.r5 = CellCover(J = 5, 
                          mat=mat,
                          CellTypeLabels=CellTypeLabels,
-                         CellTypeLabels=CellTypeLabels)
+                         CellTypeNames=CellTypeNames)
 CellCover.r10.nested.from.r5 = CellCover(J = 10, 
                                          mat=mat,
                                          CellTypeLabels=CellTypeLabels,
-                                         CellTypeLabels=CellTypeLabels,
+                                         CellTypeNames=CellTypeNames,
                                          prev = CellCover.r5)
 #CellCover.r10.nested.from.r5 will be a covering set of depth 10 
 #including all the genes in CellCover.r5
